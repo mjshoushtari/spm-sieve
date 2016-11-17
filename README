@@ -1,0 +1,14 @@
+SPM-Sieve Tool : CASES 2013, Prasenjit Chakraborty & Preeti Ranjan Panda
+
+Build :
+	1. untar in <PIN_HOME>/source/tools
+	2. set the BOOST_PATH to point to boost package (www.boost.org)
+	3. make all
+
+Run :
+	PIN_HOME/pin -t <PATH_TO_SPM-SIEVE>/obj-intel64/Spm-Sieve.so <spm-sieve tool options> -- <application> <application args>
+
+Known Bugs :
+	1. -maid 1 option not producing the malloc stacktrace
+
+For bugs and other queries please mail to prasenjit@cse.iitd.ac.in
